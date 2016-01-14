@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">quizApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- BEGIN C++ SECTION -->
+    <!-- True/False Question Bank -->
+    <string name="CqTF1">You define an integer number as:  define int num; </string>
+    <!-- False -->
+    <string name="CqTF2">This is correct syntax:  if(expression).</string>
+    <!-- True -->
+    <string name="CqTF3">Logical and is AA expression</string>
+    <!-- False -->
+    <string name="CqTF4"> Logical or is a || expression.</string>
+    <!-- True -->
+    <string name="CqTF5">Integers show decimal places up to 3</string>
+    <!-- False -->
+    <string name="CqTF6">System() is a function all c++ programs need.</string>
+    <!-- False -->
+    <string name="CqTF7">"Real" is a datatype.</string>
+    <!-- False -->
+    <string name="CqTF8"> = is how you compare variables </string>
+    <!-- False -->
+    <string name="CqTF9">We return (-1) at the end of main.</string>
+    <!-- False -->
+    <string name="CqTF10"> Statements usually end with a ";"</string>
+    <!-- True -->
+
+    <!-- Multiple Choice Question Bank -->
+    <string name="CqMC1"> What is the propper way to declare an iterator named "it" for the following container: "const set-int- mySet"? 
+        \na) const map-int- it
+        \nb) map-int-::const_iterator it
+        \nc) map-int- it const
+        \nd) You cant 
+        \n</string>
+    <!-- B -->
+    <string name="CqMC2"> What is the difference between the following commands: "++x" and "x++"? 
+        \na) There is no difference
+        \nb) plus 1 and minus 1
+        \nc) order x is ++ and evaluated
+        \nd) clear and erase
+        \n</string>
+    <!-- C -->
+    <string name="CqMC3"> B </string>
+    <!-- 1 -->
+    <string name="CqMC4"> D </string>
+    <!-- 3 -->
+    <string name="CqMC5"> A </string>
+    <!-- 0 -->
+    <string name="CqMC6"> C </string>
+    <!-- 2 -->
+    <string name="CqMC7"> C </string>
+    <!-- 2 -->
+    <string name="CqMC8"> A </string>
+    <!-- 0 -->
+    <string name="CqMC9"> D </string>
+    <!-- 3 -->
+    <string name="CqMC10"> B </string>
+    <!-- 1 -->
+	<!-- END C++ SECTION -->
+
+	
+	<!-- BEGIN ASSEMBLY SECTION -->
+    <!-- True/False Question Bank -->
+    <string name="AqTF1">You define an integer number as:  define int num; </string>
+    <!-- False -->
+    <string name="AqTF2">This is correct syntax:  if(expression).</string>
+    <!-- True -->
+    <string name="AqTF3">Logical and is AA expression</string>
+    <!-- False -->
+    <string name="AqTF4"> Logical or is a || expression.</string>
+    <!-- True -->
+    <string name="AqTF5">Integers show decimal places up to 3</string>
+    <!-- False -->
+    <string name="AqTF6">System() is a function all c++ programs need.</string>
+    <!-- False -->
+    <string name="AqTF7">"Real" is a datatype.</string>
+    <!-- False -->
+    <string name="AqTF8"> = is how you compare variables </string>
+    <!-- False -->
+    <string name="AqTF9">We return (-1) at the end of main.</string>
+    <!-- False -->
+    <string name="AqTF10"> Statements usually end with a ";"</string>
+    <!-- True -->
+
+    <!-- Multiple Choice Question Bank -->
+    <string name="AqMC1"> What is the proper way to declare an iterator named "it" for the following container: "const set-int- mySet"? 
+        \na) const map-int- it
+        \nb) map-int-::const_iterator it
+        \nc) map-int- it const
+        \nd) You cannot 
+        \n</string>
+    <!-- B -->
+    <string name="AqMC2"> What is the difference between the following commands: "++x" and "x++"? 
+        \na) There is no difference
+        \nb) plus 1 and minus 1
+        \nc) order x is ++ and evaluated
+        \nd) clear and erase
+        \n</string>
+    <!-- C -->
+    <string name="AqMC3"> B </string>
+    <!-- 1 -->
+    <string name="AqMC4"> D </string>
+    <!-- 3 -->
+    <string name="AqMC5"> A </string>
+    <!-- 0 -->
+    <string name="AqMC6"> C </string>
+    <!-- 2 -->
+    <string name="AqMC7"> C </string>
+    <!-- 2 -->
+    <string name="AqMC8"> A </string>
+    <!-- 0 -->
+    <string name="AqMC9"> D </string>
+    <!-- 3 -->
+    <string name="AqMC10"> B </string>
+    <!-- 1 -->
+<!-- END ASSEMBLY SECTION -->
+
+
+
+<!-- BEGIN JAVA SECTION -->
+    <!-- True/False Question Bank -->
+    <string name="JqTF1">You define an integer number as:  define int num; </string>
+    <!-- False -->
+    <string name="JqTF2">This is correct syntax:  if(expression).</string>
+    <!-- True -->
+    <string name="JqTF3">Logical and is AA expression</string>
+    <!-- False -->
+    <string name="JqTF4"> Logical or is a || expression.</string>
+    <!-- True -->
+    <string name="JqTF5">Integers show decimal places up to 3</string>
+    <!-- False -->
+    <string name="JqTF6">System() is a function all c++ programs need.</string>
+    <!-- False -->
+    <string name="JqTF7">"Real" is a datatype.</string>
+    <!-- False -->
+    <string name="JqTF8"> = is how you compare variables </string>
+    <!-- False -->
+    <string name="JqTF9">We return (-1) at the end of main.</string>
+    <!-- False -->
+    <string name="JqTF10"> Statements usually end with a ";"</string>
+    <!-- True -->
+
+    <!-- Multiple Choice Question Bank -->
+    <string name="JqMC1"> What is the propper way to declare an iterator named "it" for the following container: "const set-int- mySet"? 
+        \na) const map-int- it
+        \nb) map-int-::const_iterator it
+        \nc) map-int- it const
+        \nd) You cant 
+        \n</string>
+    <!-- B -->
+    <string name="JqMC2"> What is the difference between the following commands: "++x" and "x++"? 
+        \na) There is no difference
+        \nb) plus 1 and minus 1
+        \nc) order x is ++ and evaluated
+        \nd) clear and erase
+        \n</string>
+    <!-- C -->
+    <string name="JqMC3"> B </string>
+    <!-- 1 -->
+    <string name="JqMC4"> D </string>
+    <!-- 3 -->
+    <string name="JqMC5"> A </string>
+    <!-- 0 -->
+    <string name="JqMC6"> C </string>
+    <!-- 2 -->
+    <string name="JqMC7"> C </string>
+    <!-- 2 -->
+    <string name="JqMC8"> A </string>
+    <!-- 0 -->
+    <string name="JqMC9"> D </string>
+    <!-- 3 -->
+    <string name="JqMC10"> B </string>
+    <!-- 1 -->
+<!-- END JAVA SECTION -->
+	
+
+    <!-- OTHER TEST -->
+    <string name="title_activity_java">JavaActivity</string>
+    <string name="title_activity_assembly">AssemblyActivity</string>
+    <string name="title_activity_results">ResultsActivity</string>
+
+</resources>

@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnAssembly"
+        android:layout_alignBottom="@+id/btnAssembly"
+        android:layout_alignTop="@+id/btnAssembly"
+        android:layout_below="@+id/skbrNumQuestions"
+        android:layout_toRightOf="@id/btnAssembly"
+        android:text="Java" />
+
+    <Button
+        android:id="@+id/btnCpp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnAssembly"
+        android:layout_alignBottom="@+id/btnAssembly"
+        android:layout_alignTop="@+id/btnAssembly"
+        android:layout_below="@+id/skbrNumQuestions"
+        android:layout_toLeftOf="@id/btnAssembly"
+        android:text="c++" />
+
+    <TextView
+        android:id="@+id/txtlNumQuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtlSelectQuizPrompt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Slide to adjust # of questions in this round:"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtlSelectQuizPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/skbrNumQuestions"
+        android:layout_alignParentTop="true"
+        android:text="Select your quiz!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtvNumQuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtlNumQuest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="5" />
+
+    <SeekBar
+        android:id="@+id/skbrNumQuestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCpp"
+        android:layout_below="@+id/txtvNumQuest"
+        android:layout_marginTop="16dp"
+        android:max="30" />
+
+    <Button
+        android:id="@+id/btnAssembly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skbrNumQuestions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Assembly" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="History" />
+
+</RelativeLayout>
